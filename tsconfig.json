@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    
+    // 以下、デフォルトから設定を変更したところ
+    
+    // トランスパイル後のファイルを出力するディレクトリを指定する
+    "outDir": "./dist",
+    // モジュール解決の方法を指定する
+    "moduleResolution": "node",
+    // import * as を認識させるため false にする
+    "esModuleInterop": false
+  },
+  // トランスパイル対象ディレクトリを指定する
+  "include": [
+    "./src/**/*"
+  ]
+}

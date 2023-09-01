@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1693543019785" clover="3.2.0">
+  <project timestamp="1693543019785" name="All files">
+    <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3" elements="14" coveredelements="10" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
+    <file name="standardPractices.ts" path="C:\Users\HOKUSYS-WS-103\Desktop\社内業務\自己学習\Express\express_ts_boilerplate\standardPractices.ts">
+      <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="3" type="stmt"/>
+    </file>
+  </project>
+</coverage>
