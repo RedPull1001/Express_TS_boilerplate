@@ -1,33 +1,24 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es2021": true,
-        "node": true
+    env: {
+      es6: true,
+      node: true
     },
-    "extends": [
-        "plugin:@typescript-eslint/recommended"
+    extends: [
+      'plugin:@typescript-eslint/recommended'
+    ],
+    parser: '@typescript-eslint/parser',
+    parserOptions: {
+      sourceType: 'module'
+    },
+    plugins: [
+      '@typescript-eslint'
     ],
     "overrides": [
-        {
-            "env": {
-                "node": true
-            },
-            "files": [
-                ".eslintrc.{js,cjs}"
-            ],
-            "parserOptions": {
-                "sourceType": "script"
-            }
+      {
+        "files": ["*"],
+        "rules": {
+          "@typescript-eslint/no-var-requires": "off",
         }
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        sourceType: 'module'
-    },
-    "plugins": [
-        "@typescript-eslint"
-    ],
-    // "rules": {
-    // }
-}
+      },
+    ]
+  };
